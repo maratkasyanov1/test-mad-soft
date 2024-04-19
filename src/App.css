@@ -1,0 +1,96 @@
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.headTest{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 15px;
+}
+.timer{
+  margin: 0 0;
+  padding: 10px 15px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+.progressStatus{
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
+ align-items: center;
+ flex-wrap: 2px;
+}
+.progressStatusElement{
+  width: 100px;
+  height: 10px;
+  margin: 5px;
+  border: 1px solid grey;
+  border-radius: 20px;
+  background-color: black;
+}
+.buttonQue{
+  margin-top: 20px;
+}
+.checkbox{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.resetBtn{
+  color:red;
+  border: 1px solid red;
+  background-color: white;
+  border-radius: 5px;
+  padding: 6px 13px;
+  position: absolute;
+  margin: 1px 10px;
+}
+.questionPharagraph{
+  font-size: 30px;
+  margin:10px auto;
+}
+.queSection{
+  margin: 30px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.submitBtn{
+  color:red;
+  border: 1px solid red;
+  background-color: white;
+  border-radius: 5px;
+  padding: 6px 13px;
+  margin:20px auto;
+}
+.formS{
+
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.queSection{
+  width: 70%;
+  margin: auto;
+  display: flex;
+  align-items: flex-start;
+}
+.LabelInput{
+  font-size: 20px;
+}
+.textValueInput{
+  padding: 3px 4px;
+}
+.h2Test{
+  margin-right: 15px;
+}
+.headerTimer{
+  display: flex;
+  justify-content: center;
+  margin: 20px 20px;
+}
